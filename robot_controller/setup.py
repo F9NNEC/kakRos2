@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            "node1 = robot_controller.node1:main"
         ],
     },
 )
