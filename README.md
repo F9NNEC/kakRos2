@@ -19,3 +19,8 @@
 ~/ros2_ws$ rqt_graph<br>
 ~/ros2_ws$ ros2 topic list<br>
 ~/ros2_ws$ ros2 topic info /<br>
+
+**`Publisher`**<br>
+~/ros2_ws$ touch draw_cricle.py<br>
+~/ros2_ws$ chmod +x draw_circle.py<br>
+~/ros2_ws$ colcon build --symlink-install<br>
