@@ -24,3 +24,10 @@
 ~/ros2_ws$ touch draw_cricle.py<br>
 ~/ros2_ws$ chmod +x draw_circle.py<br>
 ~/ros2_ws$ colcon build --symlink-install<br>
+
+**`Subscriber`**<br>
+~$ ros2 topic info /turtle1/pose<br>
+~$ ros2 interface show turtlesim/msg/Pose<br>
+~/ros2_ws$ touch pose_subscriber.py<br>
+~/ros2_ws$ chmod +x pose_subscriber.py<br>
+~/ros2_ws$ colcon build --symlink-install<br>
